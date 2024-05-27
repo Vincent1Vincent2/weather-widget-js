@@ -1,6 +1,6 @@
 // Import necessary functions
-import { getBaseWeather, getWeather } from "../api.js";
-import { useLocation } from "../location.js";
+import { getBaseWeather, getWeather } from "../../api.js";
+import { useLocation } from "../../location.js";
 import { WeatherDetails } from "./WeatherDetails.js";
 import { setCanvasBackground } from "./backgroundHandler.js";
 import { drawCloudySky, initializeClouds } from "./cloudHandler.js";

@@ -1,4 +1,4 @@
-import { getWeatherIconUrl } from "../api.js";
+import { getWeatherIconUrl } from "../../api.js";
 
 export const formatTemperature = (temp) => {
   return Math.floor(temp);
